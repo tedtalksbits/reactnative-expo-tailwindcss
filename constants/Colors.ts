@@ -1,26 +1,58 @@
-/**
- * Below are the colors that are used in the app. The colors are defined in the light and dark mode.
- * There are many other ways to style your app. For example, [Nativewind](https://www.nativewind.dev/), [Tamagui](https://tamagui.dev/), [unistyles](https://reactnativeunistyles.vercel.app), etc.
- */
-
-const tintColorLight = '#0a7ea4';
-const tintColorDark = '#fff';
-
-export const Colors = {
+export default {
   light: {
-    text: '#11181C',
-    background: '#fff',
-    tint: tintColorLight,
-    icon: '#687076',
-    tabIconDefault: '#687076',
-    tabIconSelected: tintColorLight,
-  },
+  "background": "hsl(250 10% 3%)",
+  "foreground": "hsl(0 0% 98%)",
+  "card": "hsl(250 10% 6%)",
+  "card-foreground": "hsl(0 0% 98%)",
+  "popover": "hsl(250 10% 4%)",
+  "popover-foreground": "hsl(0 0% 98%)",
+  "primary": "hsl(250 100% 65%)",
+  "primary-foreground": "hsl(0 0% 98%)",
+  "secondary": "hsl(250 10% 7%)",
+  "secondary-foreground": "hsl(0 0% 98%)",
+  "muted": "hsl(250 10% 9%)",
+  "muted-foreground": "hsl(0 0% 49%)",
+  "accent": "hsl(250 7% 20%)",
+  "accent-foreground": "hsl(0 0% 98%)",
+  "destructive": "hsl(0 84% 60%)",
+  "destructive-foreground": "hsl(0 0% 98%)",
+  "info": "hsl(250 100% 65%)",
+  "info-foreground": "hsl(0 0% 100%)",
+  "success": "hsl(135 63% 51%)",
+  "success-foreground": "hsl(0 0% 100%)",
+  "warning": "hsl(40, 75%, 62%)",
+  "warning-foreground": "hsl(0 0% 100%)",
+  "border": "hsl(250 10% 11%)",
+  "input": "hsl(250 10% 16%)",
+  "ring": "hsl(250 100% 40%)",
+  "radius": "hsl(0.5rem)"
+},
   dark: {
-    text: '#ECEDEE',
-    background: '#151718',
-    tint: tintColorDark,
-    icon: '#9BA1A6',
-    tabIconDefault: '#9BA1A6',
-    tabIconSelected: tintColorDark,
-  },
+  "background": "hsl(250 10% 3%)",
+  "foreground": "hsl(0 0% 98%)",
+  "card": "hsl(250 10% 6%)",
+  "card-foreground": "hsl(0 0% 98%)",
+  "popover": "hsl(250 10% 4%)",
+  "popover-foreground": "hsl(0 0% 98%)",
+  "primary": "hsl(250 100% 65%)",
+  "primary-foreground": "hsl(0 0% 98%)",
+  "secondary": "hsl(250 10% 7%)",
+  "secondary-foreground": "hsl(0 0% 98%)",
+  "muted": "hsl(250 10% 9%)",
+  "muted-foreground": "hsl(0 0% 49%)",
+  "accent": "hsl(250 7% 20%)",
+  "accent-foreground": "hsl(0 0% 98%)",
+  "destructive": "hsl(0 84% 60%)",
+  "destructive-foreground": "hsl(0 0% 98%)",
+  "info": "hsl(250 100% 65%)",
+  "info-foreground": "hsl(0 0% 100%)",
+  "success": "hsl(135 63% 51%)",
+  "success-foreground": "hsl(0 0% 100%)",
+  "warning": "hsl(40, 75%, 62%)",
+  "warning-foreground": "hsl(0 0% 100%)",
+  "border": "hsl(250 10% 11%)",
+  "input": "hsl(250 10% 16%)",
+  "ring": "hsl(250 100% 40%)",
+  "radius": "hsl(0.5rem)"
+},
 };
