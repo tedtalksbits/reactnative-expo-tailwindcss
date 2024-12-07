@@ -7,6 +7,7 @@ import React, { LegacyRef } from 'react';
 const buttonVariants = cva('flex flex-row items-center justify-center', {
   variants: {
     variant: {
+      success: 'bg-success',
       default: 'bg-primary',
       secondary: 'bg-secondary',
       destructive: 'bg-destructive',
@@ -38,6 +39,7 @@ const buttonVariants = cva('flex flex-row items-center justify-center', {
 const buttonTextVariants = cva('text-center capitalize', {
   variants: {
     variant: {
+      success: 'text-success-foreground',
       default: 'text-primary-foreground',
       secondary: 'text-secondary-foreground',
       destructive: 'text-destructive-foreground',

@@ -16,7 +16,7 @@ export default {
   "accent-foreground": "hsl(0 0% 98%)",
   "destructive": "hsl(0 84% 60%)",
   "destructive-foreground": "hsl(0 0% 98%)",
-  "info": "hsl(250 100% 65%)",
+  "info": "hsl(200 100% 60%)",
   "info-foreground": "hsl(0 0% 100%)",
   "success": "hsl(135 63% 51%)",
   "success-foreground": "hsl(0 0% 100%)",
@@ -24,7 +24,7 @@ export default {
   "warning-foreground": "hsl(0 0% 100%)",
   "border": "hsl(250 10% 11%)",
   "input": "hsl(250 10% 16%)",
-  "ring": "hsl(250 100% 40%)",
+  "ring": "hsl(250 10% 40%)",
   "radius": "hsl(0.5rem)"
 },
   dark: {
@@ -44,7 +44,7 @@ export default {
   "accent-foreground": "hsl(0 0% 98%)",
   "destructive": "hsl(0 84% 60%)",
   "destructive-foreground": "hsl(0 0% 98%)",
-  "info": "hsl(250 100% 65%)",
+  "info": "hsl(200 100% 60%)",
   "info-foreground": "hsl(0 0% 100%)",
   "success": "hsl(135 63% 51%)",
   "success-foreground": "hsl(0 0% 100%)",
@@ -52,7 +52,7 @@ export default {
   "warning-foreground": "hsl(0 0% 100%)",
   "border": "hsl(250 10% 11%)",
   "input": "hsl(250 10% 16%)",
-  "ring": "hsl(250 100% 40%)",
+  "ring": "hsl(250 10% 40%)",
   "radius": "hsl(0.5rem)"
 },
 };

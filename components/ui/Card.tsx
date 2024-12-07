@@ -18,7 +18,7 @@ const CardHeader = ({
   className,
   ...props
 }: React.ComponentPropsWithoutRef<typeof View>) => {
-  return <View className={cn('p-8', className)} {...props} />;
+  return <View className={cn('p-4', className)} {...props} />;
 };
 
 const CardTitle = ({
@@ -51,7 +51,7 @@ const CardContent = ({
   className,
   ...props
 }: React.ComponentPropsWithoutRef<typeof View>) => {
-  return <View className={cn('p-8 pt-0', className)} {...props} />;
+  return <View className={cn('p-4 pt-0', className)} {...props} />;
 };
 
 const CardFooter = ({

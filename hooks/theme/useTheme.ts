@@ -1,6 +1,6 @@
 import Colors from '@/constants/Colors';
 import { Appearance, useColorScheme } from 'react-native';
-
+export type Theme = 'light' | 'dark';
 export function useTheme() {
   const colorScheme = useColorScheme() ?? 'light';
   const toggleTheme = () => {
@@ -13,3 +13,5 @@ export function useTheme() {
     colors: themeColors,
   };
 }
+
+export type ThemeColors = typeof Colors.light;
