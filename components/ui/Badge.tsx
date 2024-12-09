@@ -1,10 +1,11 @@
 import React from 'react';
-import { View, Text } from 'react-native';
+import { View } from 'react-native';
 import { cn } from '@/lib/utils';
 import { cva, type VariantProps } from 'class-variance-authority';
+import { Text } from './Text';
 
 const badgeVariants = cva(
-  'flex items-center justify-center px-4 py-2 rounded-full text-sm font-medium',
+  'flex items-center justify-center px-4 py-2 rounded-full',
   {
     variants: {
       variant: {
@@ -28,7 +29,7 @@ const Badge = ({
   VariantProps<typeof badgeVariants>) => {
   return (
     <View className={cn(badgeVariants({ variant }), className)}>
-      {children}
+      <Text variant='caption1'>{children}</Text>
     </View>
   );
 };

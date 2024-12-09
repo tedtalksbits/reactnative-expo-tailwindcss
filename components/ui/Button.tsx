@@ -82,6 +82,7 @@ const Button = React.forwardRef<View, ButtonProps>(
         )}
         <Text
           {...labelProps}
+          variant='callout'
           className={cn(buttonTextVariants({ variant }), labelProps?.className)}
         >
           {props.children}

@@ -111,14 +111,14 @@ const Toaster = ({
     PanResponder.create({
       onMoveShouldSetPanResponder: (evt, getsterState) => true,
       onPanResponderMove: (evt, gestureState) => {
-        console.log('moving', gestureState);
+        // console.log('moving', gestureState);
         const { dy } = gestureState;
         if (dy > 0) {
-          console.log('swiping down', dy);
+          // console.log('swiping down', dy);
         }
       },
       onPanResponderRelease: (evt, gestureState) => {
-        console.log('released', gestureState);
+        // console.log('released', gestureState);
         const { dy } = gestureState;
         // check if the gesture is a swipe down
         if (dy > 50) {
