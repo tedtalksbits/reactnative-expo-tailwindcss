@@ -24,7 +24,7 @@ const dialogVariants = cva('p-4 bg-secondary rounded-2xl', {
 interface ConfirmDialogProps
   extends React.ComponentPropsWithoutRef<typeof Modal> {
   title: string;
-  details: string;
+  details?: string;
   onClose: () => void;
   onConfirm: () => void;
   open: boolean;
@@ -44,6 +44,7 @@ const ConfirmDialog = ({
   contentProps,
   headerProps,
   footerProps,
+  children,
   ...props
 }: ConfirmDialogProps) => {
   // haptic feedback when the dialog is opened
@@ -78,6 +79,9 @@ const ConfirmDialog = ({
               className: contentProps?.className,
             })
           )}
+          style={{
+            width: '90%',
+          }}
           {...contentProps}
         >
           <View
@@ -93,10 +97,12 @@ const ConfirmDialog = ({
             </Button>
           </View>
 
-          {details && (
+          {details ? (
             <Text variant={'callout'} className='mb-4'>
               {details}
             </Text>
+          ) : (
+            <>{children}</>
           )}
 
           <View className='border-b border-border my-4' />

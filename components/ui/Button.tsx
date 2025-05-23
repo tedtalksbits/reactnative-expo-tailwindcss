@@ -26,7 +26,7 @@ const buttonVariants = cva('flex flex-row items-center justify-center', {
     },
     type: {
       pill: 'rounded-[999px]',
-      default: 'rounded-2xl',
+      default: 'rounded-full',
     },
   },
   defaultVariants: {
